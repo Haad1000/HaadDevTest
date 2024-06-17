@@ -6,7 +6,7 @@ import './index.css';
 
 const App = () => {
   return (
-    <div className='bg-zinc-800'>
+    <div>
       <Hero />
       <Experience />
       <Projects />
