@@ -7,7 +7,7 @@ import oldResume from '../assets/oldResume.pdf'
 
 const Hero = () => {
   return (
-    <section className='flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-10 p-5 lg:p-7 text-white'>
+    <section className='flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-20 p-16 lg:p-32 text-white mb-24'>
         <div className=' flex flex-col items-center relative m-5 lg:m-0'>
             <img src={HaadImg2} className='rounded-full w-52 h-52 object-cover shadow-cyan-dark-shadow' />
         </div>
