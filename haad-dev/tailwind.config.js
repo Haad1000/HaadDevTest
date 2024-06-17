@@ -7,7 +7,7 @@ export default {
         // Shades of Teal
         "teal-shadow": "0 0 50px 15px rgba(64, 224, 208, 0.5)", // bg-teal-500
         "teal-light-shadow": "0 0 50px 15px rgba(72, 219, 198, 0.5)", // bg-teal-400
-        "teal-dark-shadow": "0 0 50px 15px rgba(45, 204, 192, 0.5)", // bg-teal-600
+        "teal-dark-shadow": "0 0 20px 7px rgba(45, 204, 192, 0.5)", // bg-teal-600
 
         // Shades of Emerald
         "emerald-shadow": "0 0 50px 15px rgba(29, 209, 161, 0.5)", // bg-emerald-500

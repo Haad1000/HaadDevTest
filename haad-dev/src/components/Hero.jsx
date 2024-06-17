@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <section className='flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-20 p-16 lg:p-32 text-white mb-8'>
         <div className=' flex flex-col items-center relative m-5 lg:m-0'>
-            <img src={HaadImg2} className='rounded-full w-64 h-64 object-cover shadow-cyan-dark-shadow' />
+            <img src={HaadImg2} className='rounded-full w-64 h-80 lg:h-64 object-cover shadow-cyan-dark-shadow' />
         </div>
 
-        <div className='flex flex-col items-center text-center'>
+        <div className='flex flex-col items-center text-center m-2 lg:m-5'>
             <h1 className='font-rubik text-5xl'>Haad <br />Cheema</h1>
             <h2 className='font-roboto-condensed text-2xl'>Computer Science Student</h2>
             <span className='flex'>
