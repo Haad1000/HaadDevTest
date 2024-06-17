@@ -7,10 +7,9 @@ import oldResume from '../assets/oldResume.pdf'
 
 const Hero = () => {
   return (
-    <section className='flex flex-col md:flex-row justify-center items-center md:items-start md:gap-10 p-5 md:p-7 text-white'>
-        <div className=' flex flex-col items-center relative'>
-            <BsMoonStarsFill size={24} className='absolute top-2 left-0 md:top-0 md:left-0'/>
-            <img src={HaadImg2} className='rounded-full w-48 h-48 object-cover' />
+    <section className='flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-10 p-5 lg:p-7 text-white'>
+        <div className=' flex flex-col items-center relative m-5 lg:m-0'>
+            <img src={HaadImg2} className='rounded-full w-52 h-52 object-cover shadow-cyan-dark-shadow' />
         </div>
 
         <div className='flex flex-col items-center text-center'>
