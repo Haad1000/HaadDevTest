@@ -9,7 +9,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 const Skills = () => {
   return (
     <div className="flex justify-center items-center p-12 lg:p-32 text-white mb-8 flex-col">
-      <h1 className="font-rubik text-6xl">Skills</h1>
+      <h1 className="font-rubik text-6xl mb-4">Skills</h1>
       <div className="flex flex-wrap items-center justify-center gap-2 flex-row mt-3">
         <div className="rounded-2xl border-2 border-neutral-300 p-3 shadow-teal-dark-shadow">
           <FaHtml5 className="text-7xl text-orange-500 " />
