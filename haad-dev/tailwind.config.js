@@ -21,7 +21,9 @@ export default {
 
         // Custom Shades:
         "teal-pfp-shadow": "0px 0px 20px 10px rgba(45, 212, 191, 0.5)", // bg-teal-400
-        "teal-pfp-hover-shadow": "0px 0px 30px 20px rgba(45, 212, 191, 0.7)" // bg-teal-400-with-extra-glow
+        "teal-pfp-hover-shadow": "0px 0px 30px 20px rgba(45, 212, 191, 0.7)", // bg-teal-400-with-extra-glow
+        "teal-skill-shadow": "0px 0px 15px 5px rgba(45, 212, 191, 0.5)",
+        "teal-skill-hover-shadow": "0px 0px 20px 15px rgba(45, 212, 191, 0.5)"
       },
       fontFamily: {
         "roboto-condensed": ['"Roboto Condensed"', "sans-serif"],
