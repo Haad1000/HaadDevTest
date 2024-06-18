@@ -18,6 +18,10 @@ export default {
         "cyan-shadow": "0 0 50px 15px rgba(0, 255, 255, 0.5)", // bg-cyan-500
         "cyan-light-shadow": "0 0 50px 15px rgba(99, 238, 235, 0.5)", // bg-cyan-400
         "cyan-dark-shadow": "0px 0px 30px 15px rgba(0, 230, 229, 0.5)", // bg-cyan-600
+
+        // Custom Shades:
+        "teal-pfp-shadow": "0px 0px 20px 10px rgba(45, 212, 191, 0.5)", // bg-teal-400
+        "teal-pfp-hover-shadow": "0px 0px 30px 20px rgba(45, 212, 191, 0.7)" // bg-teal-400-with-extra-glow
       },
       fontFamily: {
         "roboto-condensed": ['"Roboto Condensed"', "sans-serif"],
