@@ -27,7 +27,7 @@ const Skills = () => {
         ].map((skill, index) => (
           <div 
             key={index} 
-            className="group relative rounded-2xl border-2 border-neutral-300 p-4 shadow-teal-skill-shadow hover:shadow-teal-skill-hover-shadow transition duration-200 text-slate-200 hover:text-teal-400"
+            className="group relative rounded-2xl border-2 border-neutral-300 p-4 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow transition duration-200 text-slate-200 hover:text-teal-400"
           >
             <skill.Icon className="text-7xl" />
             <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
