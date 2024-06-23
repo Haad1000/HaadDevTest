@@ -9,7 +9,7 @@ const Experience = () => {
         {experienceData.map((item, index) => (
           <div 
             key={index} 
-            className="mb-12 p-8 border border-neutral-600 rounded-lg bg-zinc-800 transition duration-300 transform hover:-translate-y-2 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow"
+            className="mb-12 p-8 border border-neutral-600 rounded-lg bg-zinc-900 transition duration-300 transform hover:-translate-y-2 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow"
           >
             <h2 className="font-rubik text-3xl mb-2 text-teal-400">{item.role}</h2>
             <h3 className="font-roboto-condensed text-xl mb-2 text-neutral-300">{item.company}</h3>

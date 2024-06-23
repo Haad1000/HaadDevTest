@@ -7,7 +7,7 @@ const Projects = () => {
       <h1 className="font-rubik text-6xl mb-12 text-teal-300">Projects</h1>
       <div className="w-full max-w-5xl">
         {projectData.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center bg-zinc-900 p-6 lg:px-0 border border-neutral-600 rounded-lg transition duration-300 transform hover:-translate-y-2 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow">
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}
