@@ -2,7 +2,7 @@
     {
         "time": "May 2024 - Present",
         "role": "Web Developer",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "description": ["Utilized React, PHP, Laravel, Docker, JavaScript, and CSS for building and optimizing web applications.", "Managed and maintained company websites, developing new tools like an expense estimator to enhance user interaction.", "Successfully handled all web development tasks independently after initially collaborating with a team."],
         "company": "Iowa State University - Office of Financial Aid",
         "technologies": ["JavaScript", "Php", "ReactJS", "Laravel", "HeidiSql", "Docker"]
     },
@@ -10,7 +10,7 @@
     {
         "time": "January 2024 - Present",
         "role": "Teaching Assistant",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "description": ["Conduct structured office hours, offering targeted support and guidance for computer science classes.", "Foster an environment that encourages students to seek clarification and assistance on course materials."],
         "company": "Iowa State University - Department of Computer Science",
         "technologies": ["Python", "Java", "JavaScript"]
     },
@@ -18,7 +18,7 @@
     {
         "time": "August 2023 - December 2023",
         "role": "Supplemental Instruction Leader",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "description": ["Led supplemental instruction (SI) sessions at the university for Object-Oriented Programming, where I helped students engage in a more active and collaborative study environment.", "Utilized my expertise as a successful student of the same course to better guide the students and gamify learning the more complex programming concepts."],
         "company": "Iowa State University - Academic Success Center",
         "technologies": ["Java"]
     },
@@ -26,7 +26,7 @@
     {
         "time": "August 2023 - December 2023",
         "role": "Tutor",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "description": ["Conducted tutoring sessions for both Introduction to Programming and Object-Oriented Programming, catering to the diverse skill levels and ensuring comprehensive support for students.", "Offer personalized guidance and share valuable insights drawn from personal experience to enhance students’ problem-solving abilities and programming expertise.", "Demonstrated deep understanding of programming language, simplifying core concepts, and offering personalized guidance to enhance students’ problem-solving abilities."],
         "company": "Iowa State University - Academic Success Center",
         "technologies": ["Python", "Java"]
     }

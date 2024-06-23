@@ -14,7 +14,12 @@ const Experience = () => {
             <h2 className="font-rubik text-3xl mb-2 text-teal-400">{item.role}</h2>
             <h3 className="font-roboto-condensed text-xl mb-2 text-neutral-300">{item.company}</h3>
             <p className="font-roboto-condensed text-md mb-4 text-neutral-400">{item.time}</p>
-            <p className="font-roboto-condensed text-lg mb-6 text-neutral-100">{item.description}</p>
+            {/* <p className="font-roboto-condensed text-lg mb-6 text-neutral-100">{item.description}</p> */}
+            <div className='mb-6'>
+              {item.description.map((point, index) => (
+                <p key={index} className="font-roboto-condensed text-lg mb-2 text-neutral-100">- {point}</p>
+              ))}
+            </div>
             <div className="flex flex-wrap gap-3">
               {item.technologies.map((tech, index) => (
                 <span 
