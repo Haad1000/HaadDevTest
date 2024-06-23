@@ -6,7 +6,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 const Skills = () => {
   return (
     <div className="flex justify-center items-center p-12 lg:p-32 text-white mb-8 flex-col">
-      <h1 className="font-rubik text-6xl mb-8 text-teal-300">Skills</h1>
+      <h1 className="font-rubik text-6xl mb-8 text-teal-300 text-shadow shadow-cyan-600">Skills</h1>
       <div className="flex flex-wrap items-center justify-center gap-4 flex-row mt-3">
         {[
           { Icon: FaHtml5, title: "HTML" },
@@ -27,10 +27,10 @@ const Skills = () => {
         ].map((skill, index) => (
           <div 
             key={index} 
-            className="group relative rounded-2xl border-2 border-neutral-300 p-4 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow transition duration-200 text-slate-200 hover:text-teal-400"
+            className="group relative rounded-2xl border-2 border-neutral-300 p-4 shadow-cyan-item-shadow hover:shadow-cyan-item-hover-shadow transition duration-200 text-slate-200 hover:text-teal-300"
           >
             <skill.Icon className="text-7xl" />
-            <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               {skill.title}
             </span>
           </div>

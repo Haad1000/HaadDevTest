@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin')
+
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      textShadow: {
+        DEFAULT: '0 0 30px, 0 0 5px var(--tw-shadow-color)'
+      },
       boxShadow: {
         // Shades of Teal
         "teal-shadow": "0 0 50px 15px rgba(64, 224, 208, 0.5)", // bg-teal-500
@@ -25,7 +32,9 @@ export default {
         "teal-skill-shadow": "0px 0px 15px 5px rgba(45, 212, 191, 0.5)",
         "teal-skill-hover-shadow": "0px 0px 20px 15px rgba(45, 212, 191, 0.5)",
         "cyan-item-shadow": "0px 0px 15px 5px rgba(0, 230, 229, 0.5)",
-        "cyan-item-hover-shadow": "0px 0px 20px 15px rgba(0, 230, 229, 0.5)"
+        "cyan-item-hover-shadow": "0px 0px 20px 15px rgba(0, 230, 229, 0.7)",
+        "cyan-pfp-shadow": "0px 0px 20px 10px rgba(0, 230, 229, 0.5)",
+        "cyan-pfp-hover-shadow": "0px 0px 30px 20px rgba(0, 230, 229, 0.7)"
       },
       fontFamily: {
         "roboto-condensed": ['"Roboto Condensed"', "sans-serif"],
@@ -33,5 +42,16 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'text-shadow': (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme('textShadow') }
+      )
+    }),
+  ],
 };

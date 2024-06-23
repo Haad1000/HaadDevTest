@@ -9,18 +9,18 @@ const Hero = () => {
       <div className='flex flex-col items-center relative m-5 lg:m-0'>
         <img 
           src={HaadImg2} 
-          className='rounded-full w-64 h-80 object-cover shadow-teal-pfp-shadow hover:shadow-teal-pfp-hover-shadow transition-shadow duration-300 ease-in-out' 
+          className='rounded-full w-64 h-80 object-cover shadow-cyan-pfp-shadow hover:shadow-cyan-pfp-hover-shadow transition-shadow duration-300 ease-in-out' 
         />
       </div>
 
       <div className='flex flex-col items-center text-center m-2 lg:m-5 space-y-4'>
         <h1 className='font-rubik text-5xl'>
-          Hi! I'm <span className='text-teal-400 text-6xl'>Haad Cheema</span>
+          Hi! I'm <span className='text-teal-300 text-6xl text-shadow shadow-cyan-600'>Haad Cheema</span>
         </h1>
         <h2 className='font-roboto-condensed text-2xl'>
           Computer Science Student
         </h2>
-        <div className='flex space-x-4 text-teal-400'>
+        <div className='flex space-x-4 text-teal-300 text-6xl text-shadow shadow-cyan-600'>
           <a href='https://github.com/Haad1000'>
             <FaGithub className='flex-row' size={40}/>
           </a>
@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
         <div className='m-2'>
           <a href={oldResume} download>
-            <button className='px-4 py-2 text-lg rounded-full border-teal-400 border-r-2 border-l-2 hover:text-black hover:bg-teal-400 focus:ring-2 focus:ring-cyan-700 transition duration-200'>
+            <button className='px-4 py-2 text-lg rounded-full border-teal-300 border-r-2 border-l-2 hover:text-black hover:bg-teal-300 focus:ring-2 focus:ring-cyan-700 transition duration-200 '>
               Resume
             </button>
           </a>

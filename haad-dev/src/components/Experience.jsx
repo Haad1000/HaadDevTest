@@ -4,7 +4,7 @@ import experienceData from './experience.json';
 const Experience = () => {
   return (
     <section className="flex flex-col items-center p-12 lg:p-32 text-white mb-8">
-      <h1 className="font-rubik text-6xl mb-12 text-teal-300">Experience</h1>
+      <h1 className="font-rubik text-6xl mb-12 text-teal-300 text-shadow shadow-cyan-600">Experience</h1>
       <div className="w-full max-w-5xl">
         {experienceData.map((item, index) => (
           <div 
