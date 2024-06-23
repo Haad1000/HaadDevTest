@@ -7,14 +7,14 @@ const projectData = [
     {
         "title": "Goku Landing Page",
         "image": GokuLandingPage,
-        "description": "A beautiful landing page made designed for Goku",
+        "description": "A beautiful landing page designed for Goku",
         "technologies": ["HTML", "CSS", "Bootstrap"],
         "link": "https://github.com/Haad1000/MUI-Goku-Landing-Page"
     },
     {
         "title": "Gojo Landing Page",
         "image": GojoLandingPage,
-        "description": "A beautiful landing page made designed for Gojo",
+        "description": "A beautiful landing page designed for Gojo",
         "technologies": ["HTML", "CSS", "Bootstrap"],
         "link": "https://github.com/Haad1000/Farewell-Gojo-Landing-Page"
     },
