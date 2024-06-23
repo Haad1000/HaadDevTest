@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className='flex flex-col items-center text-center m-2 lg:m-5 space-y-4'>
         <h1 className='font-rubik text-5xl'>
-          Hi! I'm <span className='text-teal-300 text-6xl text-shadow shadow-cyan-600'>Haad Cheema</span>
+          Hi! I'm <br/><span className='text-teal-300 text-6xl text-shadow shadow-cyan-600'>Haad Cheema</span>
         </h1>
         <h2 className='font-roboto-condensed text-2xl'>
           Computer Science Student
