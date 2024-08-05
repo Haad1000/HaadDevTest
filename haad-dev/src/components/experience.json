@@ -2,7 +2,12 @@
     {
         "time": "May 2024 - Present",
         "role": "Web Developer",
-        "description": ["Utilized React, PHP, Laravel, Docker, JavaScript, and CSS for building and optimizing web applications.", "Managed and maintained company websites, developing new tools like an expense estimator to enhance user interaction.", "Successfully handled all web development tasks independently after initially collaborating with a team."],
+        "description": [
+        "Utilized React, PHP, Laravel, Docker, JavaScript, and CSS to build and optimize web applications.",
+        "Developed and maintained the expense estimator tool, used by over 80% of incoming students at Iowa State University to budget and estimate their university expenses, significantly enhancing their financial planning.",
+        "Managed and maintained company websites, developing new tools to enhance user interaction.",
+        "Successfully handled all web development tasks independently after initially collaborating with a team."
+    ],
         "company": "Iowa State University - Office of Financial Aid",
         "technologies": ["JavaScript", "Php", "ReactJS", "Laravel", "HeidiSql", "Docker"]
     },
