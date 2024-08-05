@@ -3,8 +3,16 @@ import GokuLandingPage from "../assets/GokuLandingPage.gif"
 import GojoLandingPage from "../assets/GojoLandingPage.gif"
 import PythonSnakeGame from "../assets/SnakeGame.gif"
 import EnkiAndroidProject from "../assets/ENKI.png"
+import AcademicNavigatorProject from "../assets/academnav.jpg"
 
 const projectData = [
+    {
+        "title": "Academic Navigator",
+        "image": AcademicNavigatorProject,
+        "description": "This Application aims to help users be more productive. It provides users the features like managing to-do lists, events lists, and calendars. A user can customize their tasks and events according to their choice and this information is stored and can be accessed from a database system (MYSQL).",
+        "technologies": ["JavaScript", "React", "Node", "Express", "MySQL"],
+        "link": "https://github.com/Haad1000/AcademicNavigator"
+    },
     {
         "title": "Pengu App",
         "image": EnkiAndroidProject,
