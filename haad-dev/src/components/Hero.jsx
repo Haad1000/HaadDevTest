@@ -1,7 +1,7 @@
 import React from 'react';
 import HaadImg2 from '../assets/Haad_02.jpg';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import oldResume from '../assets/oldResume.pdf'
+import oldResume from '../assets/SelfResume.pdf'
 
 const Hero = () => {
   return (
