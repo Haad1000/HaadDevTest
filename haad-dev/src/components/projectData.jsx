@@ -4,8 +4,16 @@ import GojoLandingPage from "../assets/GojoLandingPage.gif"
 import PythonSnakeGame from "../assets/SnakeGame.gif"
 import EnkiAndroidProject from "../assets/ENKI.png"
 import AcademicNavigatorProject from "../assets/academnav.jpg"
+import GmailAIResponse from "../assets/GmailAIResponse.png"
 
 const projectData = [
+    {
+        "title": "Gmail AI Responder",
+        "image": GmailAIResponse,
+        "description": "A Chrome extension that generates quick, AI-powered email responses. Users can choose between instant generic replies or provide context for personalized responses, all displayed in a simple, intuitive interface.",
+        "technologies": ["JavaScript", "Gemini-AI", "Node", "Express",],
+        "link": "https://github.com/Haad1000/GmailResponse-Extention"
+    },
     {
         "title": "Academic Navigator",
         "image": AcademicNavigatorProject,
