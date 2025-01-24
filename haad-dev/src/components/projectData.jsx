@@ -10,7 +10,7 @@ const projectData = [
     {
         "title": "Gmail AI Responder",
         "image": GmailAIResponse,
-        "description": "A Chrome extension that generates quick, AI-powered email responses. Users can choose between instant generic replies or provide context for personalized responses, all displayed in a simple, intuitive interface. Here is a demonstration video: https://www.linkedin.com/feed/update/urn:li:activity:7263090206793179137",
+        "description": "A Chrome extension that generates quick, AI-powered email responses. Users can choose between instant generic replies or provide context for personalized responses, all displayed in a simple, intuitive interface.",
         "technologies": ["JavaScript", "Gemini-AI", "Node", "Express",],
         "link": "https://github.com/Haad1000/GmailResponse-Extention"
     },
