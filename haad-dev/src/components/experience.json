@@ -1,5 +1,16 @@
 [
     {
+        "time": "January 2026 - May 2026",
+        "role": "Backend / AI Engineer (Senior Design Capstone)",
+        "description": [
+            "Developed a privacy-aware Agentic GraphRAG system that analyzes personal social media data through semantic retrieval, graph traversal, and conversational analytics.",
+            "Built hybrid retrieval pipelines using Neo4j vector search, embeddings, and LangGraph agents to support contextual querying across posts, comments, and direct messages.",
+            "Implemented user-centric data ingestion, graph-based relationship modeling, caching systems, and anonymization pipelines for secure remote LLM processing."
+        ],
+        "company": "PARROT - Privacy-Aware Agentic RAG System",
+        "technologies": ["Python", "LangGraph", "Neo4j", "FastAPI", "Docker"]
+    },
+    {
         "time": "May 2024 - Present",
         "role": "Part-time Full-Stack Web Developer",
         "description": [
@@ -14,7 +25,7 @@
 
     {
         "time": "January 2024 - Present",
-        "role": "Teaching Assistant",
+        "role": "Lead Teaching Assistant",
         "description": ["Conduct structured office hours, offering targeted support and guidance for computer science classes.", "Foster an environment that encourages students to seek clarification and assistance on course materials."],
         "company": "Iowa State University - Department of Computer Science",
         "technologies": ["Python", "Java", "JavaScript"]

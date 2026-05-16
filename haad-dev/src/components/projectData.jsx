@@ -5,8 +5,16 @@ import PythonSnakeGame from "../assets/SnakeGame.gif"
 import EnkiAndroidProject from "../assets/ENKI.png"
 import AcademicNavigatorProject from "../assets/academnav.jpg"
 import GmailAIResponse from "../assets/GmailAIResponse.png"
+import FinanceAuditProject from "../assets/FinanceAuditProject.png"
 
 const projectData = [
+    {
+        "title": "Finance Audit System",
+        "image": FinanceAuditProject,
+        "description": "A robust backend compliance engine that monitors financial transactions and detects fraud in near real-time. It features an extensible rule engine, an idempotent background scheduler, and a REST API that serves alerts to a dynamic Auditor Dashboard.",
+        "technologies": ["Java", "Spring Boot", "JPA / Hibernate", "H2 Database", "REST API", "JavaScript"],
+        "link": "https://github.com/Haad1000/Finance-Control-Monitor-Java"
+    },
     {
         "title": "Gmail AI Responder",
         "image": GmailAIResponse,
