@@ -1,7 +1,7 @@
 [
     {
         "time": "January 2026 - May 2026",
-        "role": "Backend / AI Engineer (Senior Design Capstone)",
+        "role": "Backend / AI Engineer",
         "description": [
             "Developed a privacy-aware Agentic GraphRAG system that analyzes personal social media data through semantic retrieval, graph traversal, and conversational analytics.",
             "Built hybrid retrieval pipelines using Neo4j vector search, embeddings, and LangGraph agents to support contextual querying across posts, comments, and direct messages.",
